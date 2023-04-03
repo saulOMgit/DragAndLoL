@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Source+Sans+Pro:ital,wght@0,200;0,400;1,300&display=swap');
+
+.contenedor {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    /* background-color: rgb(59, 57, 57); */
+    /* background-image: url(../img/fondo.svg); */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,13,121,1) 35%, rgba(255,0,215,1) 100%);
+    text-transform: uppercase;
+    font-family: 'League Spartan', sans-serif;
+}
+.divcampeones, .divrespuestas{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column;     */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.respuesta {
+    height: 150px;
+    width: 150px;
+    border: solid 3px #ccc;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.645);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.spannombre{
+    position: absolute;
+    top: 690px;
+    color: white;
+    font-size: 26px;    
+}
+h1{
+    color: white;
+}
+.acierto{
+    border: 4px dashed green;   
+    
+    
+}
+.acierto span{
+    color: rgb(249, 254, 0); 
+}
+
+.fallo{
+    background-color: rgba(255, 0, 0, 0.474);
+}
+
+/* reset */
+
+.spanreset{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    font-size: 50px;
+    color: yellow;
+}
+
+.spanreset:hover{
+    rotate: 360deg;
+    transition: all 0.5s;
+}
+
